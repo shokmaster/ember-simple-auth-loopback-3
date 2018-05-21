@@ -1,8 +1,6 @@
 /* jscs:disable requireDotNotation */
-import Ember from 'ember';
 import Base from 'ember-simple-auth/authorizers/base';
-
-const { isEmpty } = Ember;
+import { isEmpty } from '@ember/utils'
 
 /**
   Authorizer that sets headers to communicated with Loopback servers

@@ -1,9 +1,10 @@
 /* jscs:disable requireDotNotation */
-import Ember from 'ember';
+import $ from 'jquery'
 import BaseAuthenticator from 'ember-simple-auth/authenticators/base';
-
-const { RSVP, isEmpty, run, computed } = Ember;
-const assign = Ember.assign || Ember.merge;
+import RSVP from 'rsvp';
+import { A } from '@ember/array';
+import { isEmpty } from '@ember/utils'
+import { run } from '@ember/runloop';
 
 /**
   Authenticator that works with Loopback's default authentication
@@ -48,7 +49,7 @@ export default BaseAuthenticator.extend({
 
     @method restore
     @param {Object} data The data to restore the session from
-    @return {Ember.RSVP.Promise} A promise that when it resolves results in the session becoming or remaining authenticated
+    @return {RSVP.Promise} A promise that when it resolves results in the session becoming or remaining authenticated
     @public
   */
   restore(data) {
@@ -73,10 +74,10 @@ export default BaseAuthenticator.extend({
     @method authenticate
     @param {String} username The resource owner username
     @param {String} password The resource owner password
-    @return {Ember.RSVP.Promise} A promise that when it resolves results in the session becoming authenticated
+    @return {RSVP.Promise} A promise that when it resolves results in the session becoming authenticated
     @public
   */
-  authenticate(email, password, scope = []) {
+  authenticate(email, password, scope = []) { // eslint-disable-line no-unused-vars
     return new RSVP.Promise((resolve, reject) => {
       const data = { email, password };
       const loginEndpoint = this.get('loginEndpoint');
@@ -102,7 +103,7 @@ export default BaseAuthenticator.extend({
 
     @method invalidate
     @param {Object} data The current authenticated session data
-    @return {Ember.RSVP.Promise} A promise that when it resolves results in the session being invalidated
+    @return {RSVP.Promise} A promise that when it resolves results in the session being invalidated
     @public
   */
   invalidate(data) {
@@ -117,7 +118,7 @@ export default BaseAuthenticator.extend({
         success.apply(this, [resolve]);
       } else {
         const requests = [];
-        Ember.A(['id']).forEach((tokenType) => {
+        A(['id']).forEach((tokenType) => {
           const token = data[tokenType];
           if (!isEmpty(token)) {
             requests.push(this.makeRequest(logoutEndpoint, {
@@ -151,6 +152,6 @@ export default BaseAuthenticator.extend({
       contentType: 'application/json'
     };
 
-    return Ember.$.ajax(options);
+    return $.ajax(options);
   },
 });
