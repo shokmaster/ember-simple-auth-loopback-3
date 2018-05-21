@@ -6,6 +6,8 @@
     "ember-addon",
     "ember-simple-auth",
     "Loopback",
+    "authentication",
+    "authorization",
     "auth"
   ],
   "license": "MIT",
@@ -44,6 +46,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
     "ember-simple-auth": "^1.1.0-beta.4",
+    "ember-sinon": "^2.1.0",
     "ember-source": "~3.1.0",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^0.2.23",
