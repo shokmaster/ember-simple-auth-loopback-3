@@ -30,6 +30,12 @@ test('#restore resolves with the correct data', assert => {
   });
 });
 
+test('#invalidate returns a resolving promise', assert => {
+  subject.invalidate().then(() => {
+    assert.ok(true);
+  });
+});
+
 test('#authenticate sends an AJAX request to the login endpoint', assert => {
   subject.authenticate(email, password);
 
@@ -40,16 +46,10 @@ test('#authenticate sends an AJAX request to the login endpoint', assert => {
 
     assert.deepEqual(args, {
       contentType: 'application/json',
-      data: '{"email":"foo@bar.com","password":"foobar"}',
+      data: `{"email":"${email}","password":"${password}"}`,
       dataType: 'json',
       type: 'POST',
       url
     });
-  });
-});
-
-test('#invalidate returns a resolving promise', assert => {
-  subject.invalidate().then(() => {
-    assert.ok(true);
   });
 });
