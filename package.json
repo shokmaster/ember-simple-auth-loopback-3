@@ -1,7 +1,7 @@
 {
-  "name": "ember-simple-auth-loopback",
-  "version": "1.1.0",
-  "description": "Loopback support for ember-simple-auth",
+  "name": "ember-simple-auth-loopback-3",
+  "version": "2.0.0",
+  "description": "Loopback 3 support for ember-simple-auth",
   "keywords": [
     "ember-addon",
     "ember-simple-auth",
@@ -16,7 +16,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/rtablada/ember-simple-auth-loopback",
+  "repository": "https://github.com/shokmaster/ember-simple-auth-loopback-3",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app blueprints config lib server test-support tests",

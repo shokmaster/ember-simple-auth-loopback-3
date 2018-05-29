@@ -10,7 +10,7 @@ import { isEmpty } from '@ember/utils'
   ```
 
   @class LoopbackAuthorizer
-  @module ember-simple-auth-loopback/authorizers/loopback
+  @module ember-simple-auth-loopback-3/authorizers/loopback
   @extends BaseAuthorizer
   @public
 */

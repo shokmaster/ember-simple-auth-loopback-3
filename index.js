@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-simple-auth-loopback'
+  name: 'ember-simple-auth-loopback-3'
 };

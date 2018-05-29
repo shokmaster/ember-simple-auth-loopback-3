@@ -1,5 +1,5 @@
 import $ from 'jquery'
-import Loopback from 'ember-simple-auth-loopback/authenticators/loopback';
+import Loopback from 'ember-simple-auth-loopback-3/authenticators/loopback';
 import sinon from 'sinon';
 import { module } from 'qunit';
 import { run } from '@ember/runloop';

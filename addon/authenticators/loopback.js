@@ -10,7 +10,7 @@ import { run } from '@ember/runloop';
   Authenticator that works with Loopback's default authentication
 
   @class LoopbackAuthenticator
-  @module ember-simple-auth-loopback/authenticators/loopback
+  @module ember-simple-auth-loopback-3/authenticators/loopback
   @extends BaseAuthenticator
   @public
 */

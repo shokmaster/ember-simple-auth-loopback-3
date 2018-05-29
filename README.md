@@ -1,11 +1,15 @@
-# Ember-simple-auth-loopback
+This project is an updated fork of the original rtablada's [ember-simple-auth-loopback](https://github.com/rtablada/ember-simple-auth-loopback) package.
+
+---
+
+# ember-simple-auth-loopback-3
 
 This package allows integration with the default authorization tokens used with Strongloop's Loopback servers.
 
 ## Installation
 
 ```
-ember install ember-simple-auth ember-simple-auth-loopback
+ember install ember-simple-auth ember-simple-auth-loopback-3
 ```
 
 ## Use
@@ -15,7 +19,7 @@ This addon provides an authenticator to login users and store their session.
 First create an `authenticators/application.js` file with the following:
 
 ```js
-import Loopback from 'ember-simple-auth-loopback/authenticators/loopback';
+import Loopback from 'ember-simple-auth-loopback-3/authenticators/loopback';
 
 export default Loopback.extend({
   loginEndpoint: 'http://0.0.0.0:3000/api/Users/login',
@@ -59,7 +63,7 @@ Once logged in, API requests will need to be authorized using the token sent bac
 To do this, first setup an `app/authorizers/application.js`:
 
 ```js
-import Loopback from 'ember-simple-auth-loopback/authorizers/loopback';
+import Loopback from 'ember-simple-auth-loopback-3/authorizers/loopback';
 
 export default Loopback.extend();
 ```
