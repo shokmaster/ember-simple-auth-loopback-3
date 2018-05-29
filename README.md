@@ -1,7 +1,7 @@
 
 # ember-simple-auth-loopback-3
 
-[![Build Status](https://travis-ci.org/twokul/ember-cli-bugsnag.svg)](https://travis-ci.org/twokul/ember-cli-bugsnag)
+[![Build Status](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3.svg)](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3)
 
 This package allows integration with the default authorization tokens used with Strongloop's Loopback servers.
 
