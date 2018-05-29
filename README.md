@@ -1,10 +1,13 @@
-This project is an updated fork of the original rtablada's [ember-simple-auth-loopback](https://github.com/rtablada/ember-simple-auth-loopback) package.
-
----
 
 # ember-simple-auth-loopback-3
 
+[![Build Status](https://travis-ci.org/twokul/ember-cli-bugsnag.svg)](https://travis-ci.org/twokul/ember-cli-bugsnag)
+
 This package allows integration with the default authorization tokens used with Strongloop's Loopback servers.
+
+---
+
+This project is an updated fork of the original rtablada's [ember-simple-auth-loopback](https://github.com/rtablada/ember-simple-auth-loopback) package.
 
 ## Installation
 
