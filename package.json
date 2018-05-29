@@ -11,7 +11,7 @@
     "auth"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Juan Antonio Gomez Benito",
   "directories": {
     "doc": "doc",
     "test": "tests"
