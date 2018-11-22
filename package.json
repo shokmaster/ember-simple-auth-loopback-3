@@ -30,7 +30,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "~3.2.0",
+    "ember-cli": "~3.3.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^2.0.1",
@@ -47,7 +47,7 @@
     "ember-resolver": "^4.0.0",
     "ember-simple-auth": "^1.1.0-beta.4",
     "ember-sinon": "^2.1.0",
-    "ember-source": "~3.2.0",
+    "ember-source": "~3.3.0",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^1.1.0",
     "eslint-plugin-ember": "^5.0.0",
