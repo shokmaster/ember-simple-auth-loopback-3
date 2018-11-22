@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3.svg)](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3)
 
+[![Ember Observer Score](https://emberobserver.com/badges/ember-simple-auth-loopback-3.svg)](https://emberobserver.com/addons/ember-simple-auth-loopback-3)
+
 This package allows integration with the default authorization tokens used with Strongloop's Loopback servers.
 
 ---
