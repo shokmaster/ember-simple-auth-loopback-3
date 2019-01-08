@@ -1,12 +1,12 @@
 
 # ember-simple-auth-loopback-3
 
-[![Build Status](https://travis-ci.org/BBVAEngineering/ember-simple-auth-loopback-3.svg?branch=master)](https://travis-ci.org/BBVAEngineering/ember-simple-auth-loopback-3)
-[![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fember-simple-auth-loopback-3.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fember-simple-auth-loopback-3)
+[![Build Status](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3.svg?branch=master)](https://travis-ci.org/shokmaster/ember-simple-auth-loopback-3)
+[![GitHub version](https://badge.fury.io/gh/shokmaster%2Fember-simple-auth-loopback-3.svg)](https://badge.fury.io/gh/shokmaster%2Fember-simple-auth-loopback-3)
 [![NPM version](https://badge.fury.io/js/ember-simple-auth-loopback-3.svg)](https://badge.fury.io/js/ember-simple-auth-loopback-3)
-[![Dependency Status](https://david-dm.org/BBVAEngineering/ember-simple-auth-loopback-3.svg)](https://david-dm.org/BBVAEngineering/ember-simple-auth-loopback-3)
-[![codecov](https://codecov.io/gh/BBVAEngineering/ember-simple-auth-loopback-3/branch/master/graph/badge.svg)](https://codecov.io/gh/BBVAEngineering/ember-simple-auth-loopback-3)
-[![Greenkeeper badge](https://badges.greenkeeper.io/BBVAEngineering/ember-simple-auth-loopback-3.svg)](https://greenkeeper.io/)
+[![Dependency Status](https://david-dm.org/shokmaster/ember-simple-auth-loopback-3.svg)](https://david-dm.org/shokmaster/ember-simple-auth-loopback-3)
+[![codecov](https://codecov.io/gh/shokmaster/ember-simple-auth-loopback-3/branch/master/graph/badge.svg)](https://codecov.io/gh/shokmaster/ember-simple-auth-loopback-3)
+[![Greenkeeper badge](https://badges.greenkeeper.io/shokmaster/ember-simple-auth-loopback-3.svg)](https://greenkeeper.io/)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-simple-auth-loopback-3.svg)](https://emberobserver.com/addons/ember-simple-auth-loopback-3)
 
 ## Information
