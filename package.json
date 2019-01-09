@@ -1,6 +1,6 @@
 {
   "name": "ember-simple-auth-loopback-3",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Loopback 3 support for ember-simple-auth",
   "keywords": [
     "ember-addon",
