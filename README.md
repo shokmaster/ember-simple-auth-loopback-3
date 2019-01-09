@@ -10,7 +10,7 @@
 
 ## Information
 
-[![NPM](https://nodei.co/npm/ember-simple-auth-loopback-3.png?downloads=true&downloadRank=true)](https://nodei.co/npm/ember-simple-auth-loopback-3/)
+[![NPM](https://nodei.co/npm/ember-simple-auth-loopback-3.png?downloads=true&downloadRank=true)](https://nodei.co/npm/ember-simple-auth-loopback-3/) [![Greenkeeper badge](https://badges.greenkeeper.io/shokmaster/ember-simple-auth-loopback-3.svg)](https://greenkeeper.io/)
 
 This package allows integration with the default authorization tokens used with Strongloop's Loopback servers.
 
