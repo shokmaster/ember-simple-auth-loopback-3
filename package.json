@@ -84,5 +84,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "greenkeeper": {
+    "ignore": [
+      "ember-try"
+    ]
   }
 }
