@@ -6,7 +6,6 @@
 [![NPM version](https://badge.fury.io/js/ember-simple-auth-loopback-3.svg)](https://badge.fury.io/js/ember-simple-auth-loopback-3)
 [![Dependency Status](https://david-dm.org/shokmaster/ember-simple-auth-loopback-3.svg)](https://david-dm.org/shokmaster/ember-simple-auth-loopback-3)
 [![codecov](https://codecov.io/gh/shokmaster/ember-simple-auth-loopback-3/branch/master/graph/badge.svg)](https://codecov.io/gh/shokmaster/ember-simple-auth-loopback-3)
-[![Greenkeeper badge](https://badges.greenkeeper.io/shokmaster/ember-simple-auth-loopback-3.svg)](https://greenkeeper.io/)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-simple-auth-loopback-3.svg)](https://emberobserver.com/addons/ember-simple-auth-loopback-3)
 
 ## Information
