@@ -1,4 +1,3 @@
-/* jscs:disable requireDotNotation */
 import Base from 'ember-simple-auth/authorizers/base';
 import { isEmpty } from '@ember/utils';
 
