@@ -1,4 +1,3 @@
-/* jscs:disable requireDotNotation */
 import $ from 'jquery';
 import BaseAuthenticator from 'ember-simple-auth/authenticators/base';
 import RSVP from 'rsvp';
@@ -107,7 +106,7 @@ export default BaseAuthenticator.extend({
 	 * @return {RSVP.Promise} A promise that when it resolves results in the session being invalidated
 	 * @public
 	 */
-	invalidate(data) {
+	invalidate(data = {}) {
 		const logoutEndpoint = this.get('logoutEndpoint');
 
 		function success(resolve) {
@@ -115,6 +114,7 @@ export default BaseAuthenticator.extend({
 			delete this._refreshTokenTimeout;
 			resolve();
 		}
+
 		return new RSVP.Promise((resolve) => {
 			if (isEmpty(logoutEndpoint)) {
 				success.apply(this, [resolve]);
@@ -131,6 +131,7 @@ export default BaseAuthenticator.extend({
 						}));
 					}
 				});
+
 				const succeed = () => {
 					success.apply(this, [resolve]);
 				};
