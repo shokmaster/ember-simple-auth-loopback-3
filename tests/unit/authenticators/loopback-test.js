@@ -110,7 +110,7 @@ module('Unit | Authenticator | loopback', (hooks) => {
 	});
 
 	test('#authenticate sends an AJAX request to the login endpoint', (assert) => {
-		subject.authenticate(email, password);
+		subject.authenticate(email, password).catch(() => {});
 
 		run(() => {
 			const args = $.ajax.getCall(0).args[0];
