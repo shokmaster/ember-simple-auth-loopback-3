@@ -69,12 +69,12 @@ module('Unit | Authenticator | loopback', (hooks) => {
 		});
 	});
 
-	test('#invalidate returns a resolving promise when logoutEndpoint and token are setted', (assert) => {
+	test('#invalidate returns a resolving promise when logoutEndpoint and token are setted', async(assert) => {
 		subject.set('logoutEndpoint', '/logout');
 
-		subject.invalidate({ id: 'fooBarToken' }).then(() => {
-			assert.ok(true);
-		});
+		await subject.invalidate({ id: 'fooBarToken' });
+
+		assert.ok(true);
 	});
 
 	test('#authenticate calls `makeRequest` with email/password', async(assert) => {
