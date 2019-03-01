@@ -1,8 +1,11 @@
-/* jscs:disable requireDotNotation */
 import Base from 'ember-simple-auth/authorizers/base';
 import { isEmpty } from '@ember/utils';
 
 /**
+ * DEPRECATION: Ember Simple Auth: Authorizers are deprecated in favour of setting headers directly.
+ * [deprecation id: ember-simple-auth.baseAuthorizer]
+ * See https://github.com/simplabs/ember-simple-auth#deprecation-of-authorizers for more details.
+ *
  * Authorizer that sets headers to communicated with Loopback servers
  *
  * ```
