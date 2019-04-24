@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/shokmaster/ember-simple-auth-loopback-3/compare/v2.0.9...v3.0.0) (2019-04-24)
+
+
+### chore
+
+* **package:** drop support for Node 6 ([6e3fecb](https://github.com/shokmaster/ember-simple-auth-loopback-3/commit/6e3fecb))
+
+
+### BREAKING CHANGES
+
+* **package:** drop support for Node 6
+
 ## [2.0.9](https://github.com/shokmaster/ember-simple-auth-loopback-3/compare/v2.0.8...v2.0.9) (2019-03-01)
 
 
