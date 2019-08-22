@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/shokmaster/ember-simple-auth-loopback-3/compare/v3.0.0...v3.1.0) (2019-08-22)
+
+
+### Features
+
+* **package:** upgrade ember-cli and ember-source ([a8ccde2](https://github.com/shokmaster/ember-simple-auth-loopback-3/commit/a8ccde2))
+
 # [3.0.0](https://github.com/shokmaster/ember-simple-auth-loopback-3/compare/v2.0.9...v3.0.0) (2019-04-24)
 
 
