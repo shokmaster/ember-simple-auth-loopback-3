@@ -71,7 +71,7 @@
     "istanbul": "^0.4.5",
     "loader.js": "^4.7.0",
     "merge": ">=1.2.1",
-    "qunit-dom": "^0.9.0",
+    "qunit-dom": "^1.1.0",
     "semantic-release": "^15.13.2"
   },
   "engines": {
